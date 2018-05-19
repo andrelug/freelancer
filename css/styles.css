@@ -1,0 +1,38 @@
+p {
+    font-family: "ff-tisa-web-pro";
+}
+h1, h2 {
+    font-family: "brandon-grotesque";
+}
+h1 {
+    text-transform: uppercase;
+    color: #fff !important;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+}
+header h2 {
+    color: #f5b039 !important;
+    margin-top: 4rem !important;
+    margin-bottom: 2rem !important;
+}
+.header button {
+    background-color: #273c75 !important;
+    color: #fff !important;
+    font-weight: bold;
+}
+.header {
+    background-color: #4b6584;
+    padding:100px 0px;
+    background: url(../images/bg.jpg) center top;
+    background-size: cover;
+}
+.noticeTop {
+    margin-bottom: 0px !important;
+    margin-top:14px !important;
+}
+.button .icon:first-child:last-child {
+    margin-left: calc(-.375em - -10px);
+}
+.logo {
+    max-width: 25em;
+}

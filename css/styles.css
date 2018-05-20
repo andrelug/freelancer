@@ -1,7 +1,7 @@
 p {
     font-family: "ff-tisa-web-pro";
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: "brandon-grotesque";
 }
 h1 {
@@ -9,21 +9,27 @@ h1 {
     color: #fff !important;
     letter-spacing: 2px;
     line-height: 1.3em;
+    margin-top:0px !important;
 }
-header h2 {
+header .data {
     color: #f5b039 !important;
-    margin-top: 4rem !important;
-    margin-bottom: 2rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 4rem !important;
 }
-.header button {
-    background-color: #273c75 !important;
+header .participar {
+    color: #222 !important;
+}
+button {
+    background-color: #f5b039 !important;
     color: #fff !important;
     font-weight: bold;
 }
+#mc-embedded-subscribe:hover {
+    background-color: #273c75 !important;
+}
 .header {
     background-color: #4b6584;
-    padding:100px 0px;
-    background: url(../images/bg.jpg) center top;
+    background: url(../images/bg.jpg) center center;
     background-size: cover;
 }
 .noticeTop {
@@ -35,4 +41,66 @@ header h2 {
 }
 .logo {
     max-width: 25em;
+}
+.headerLine {
+    width: 100px;
+    height: 3px;
+    background-color: #F5B039;
+    display: inline-block;
+    margin:10px auto 40px;
+}
+.webinario {
+    color: #F5B039 !important;
+    font-weight: bold;
+    font-size: 2rem !important;
+}
+.textBlue {
+    color: #273c75 !important;
+}
+section,
+header,
+footer {
+    padding: 100px 5%;
+}
+section#andrelug {
+    border-bottom: 10px solid #F5B039;
+}
+section h2:not(.participar) {
+    font-size: 48px !important;
+    margin-bottom: 140px !important;
+}
+section p {
+    font-size: 26px !important;
+}
+#features .feature svg:not(:root).svg-inline--fa {
+    color: #F5B039;
+}
+footer {
+    background-color: #222;
+}
+footer a, footer img {
+    margin: 15px auto;
+    max-width: 150px !important;
+}
+#andrelug img {
+    max-width: 514px;
+}
+.notice {
+    color: #222;
+    font-weight: bold;
+}
+.field.has-addons {
+    justify-content: center;
+}
+@media screen and (max-width: 769px) {
+    .field.has-addons {
+        display: block;
+    }
+    .field.has-addons .control:last-child .button {
+        width: 100%;
+        margin-top:15px;
+    }
+    .webinario {
+        font-size: 1.3rem !important;
+    }
 }

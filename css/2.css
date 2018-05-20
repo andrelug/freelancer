@@ -29,7 +29,7 @@ button {
 }
 .header {
     background-color: #4b6584;
-    background: url(../images/bg.jpg) center center;
+    //background: url(../images/bg.jpg) center center;
     background-size: cover;
 }
 .noticeTop {
@@ -63,6 +63,8 @@ header {
 }
 section#andrelug {
     border-bottom: 10px solid #F5B039;
+    background: url(/images/bg2.jpg) left center;
+    background-size: cover;
 }
 section h2:not(.participar) {
     font-size: 3rem !important;

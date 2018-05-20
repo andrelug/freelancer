@@ -58,8 +58,7 @@ button {
     color: #273c75 !important;
 }
 section,
-header,
-footer {
+header {
     padding: 100px 5%;
 }
 section#andrelug {

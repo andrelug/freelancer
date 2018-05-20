@@ -65,7 +65,7 @@ section#andrelug {
     border-bottom: 10px solid #F5B039;
 }
 section h2:not(.participar) {
-    font-size: 48px !important;
+    font-size: 3rem !important;
     margin-bottom: 140px !important;
 }
 section p {
@@ -101,5 +101,13 @@ footer a, footer img {
     }
     .webinario {
         font-size: 1.3rem !important;
+    }
+    section,
+    header {
+        padding: 50px 5%;
+    }
+    section h2:not(.participar) {
+        font-size: 2.5rem !important;
+        margin-bottom: 40px !important;
     }
 }

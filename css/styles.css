@@ -69,7 +69,7 @@ section h2:not(.participar) {
     margin-bottom: 140px !important;
 }
 section p {
-    font-size: 26px !important;
+    font-size: 1.6rem !important;
 }
 #features .feature svg:not(:root).svg-inline--fa {
     color: #F5B039;
@@ -109,5 +109,8 @@ footer a, footer img {
     section h2:not(.participar) {
         font-size: 2.5rem !important;
         margin-bottom: 40px !important;
+    }
+    section p {
+        font-size: 1.4rem !important;
     }
 }

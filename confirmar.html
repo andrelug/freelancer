@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79244441-7"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-79244441-7');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Jornada do Freelancer - Série Gratuita de Webinários</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="https://use.typekit.net/luc1kog.css">
+    <link rel="stylesheet" href="/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '376700682813302');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=376700682813302&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+</head>
+
+<body id="confirmar">
+    <div class="columns is-centered is-gapless noticeTop" style="background-color:#222;">
+        <div class="column is-half has-text-centered">
+            <div class="content">
+                <h2 style="color: white;">Treinamento Gratuito Ao Vivo</h2>
+            </div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="columns is-centered is-gapless">
+                <div class="column is-three-quarters-desktop">
+                    <div class="content has-text-centered">
+                        <h3 class="webinario" style="color:#222;">SER FREELANCER É SER LIVRE</h3>
+                        <span class="headerLine"></span>
+                        <h1 class="is-size-2-desktop is-size-3-tablet is-size-4-mobile">Sensacional a atitude dar um passo em direção a um
+estilo de vida com mais sentido. Para completar sua
+inscrição no webinário é só você ir até seu e-mail,
+procurar o e-mail que acabei de te enviar e confirmar.</h1>
+                        <h2 class="data">Quinta-feira, dia 24 de Maio às 20:00</h2>
+                        <h2 class="participar">Deixei alguns links rápidos aqui para te ajudar</h2>
+                        <div class="columns" id="mailIcons">
+                            <div class="column is-one-thirds-widescreen has-text-centered">
+                                <a href="https://mail.google.com/mail/u/0/#search/andrelug.com" data-mail="gmail" target="_blank">
+                                    <img src="/images/gmail-icon.png" alt="Gmail">
+                                </a>
+                            </div>
+                            <div class="column is-one-thirds-widescreen has-text-centered">
+                                <a href="https://bay182.mail.live.com/?fid=flsearch&srch=1&skws=andrelug.com&sdr=4&satt=0" data-mail="outlook" target="_blank">
+                                    <img src="/images/outlook-icon.png" alt="Gmail" style="max-width: 120px;">
+                                </a>
+                            </div>
+                            <div class="column is-one-thirds-widescreen has-text-centered">
+                                <a href="https://login.yahoo.com" data-mail="yahoo" target="_blank">
+                                    <img src="/images/yahoo-icon.png" alt="Gmail" style="margin-top: 15px;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#mailIcons a').on('click', function(){
+                 gtag('event', 'click', {
+                    'event_category': 'mail',
+                    'event_label': $(this).attr('data-mail')
+                });
+            });
+           
+
+
+        });
+    </script>
+
+</body>
+
+</html>

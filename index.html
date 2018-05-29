@@ -260,13 +260,15 @@
             
 
             $('form button[type="submit"]').on('click', function ( event ) {
-                if ( event ) event.preventDefault();
+                
                 $(this).addClass('Disabled').attr('disabled', 'disabled')
                 // validate_input() is a validation function I wrote, you'll have to substitute this with your own.
                 if ( validateEmail($(this).parents('form').find('input').val()) ) {
-                    $(this).text('Processando')
-                    register($(this));
+                    $(this).text('Processando');
+                    $(this).parents('form').submit();
+                    // register($(this));
                 } else {
+                    event.preventDefault();
                     $(this).parents('form').append('<span class="notice">Por favor verifique o seu e-mail</span>')
                 }
             });

@@ -82,9 +82,18 @@ button {
     max-width: 1000px;
 }
 
-.video iframe {
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 538px;
+    height: 100%;
 }
 
 section,
@@ -132,10 +141,6 @@ footer a, footer img {
     .webinario {
         font-size: 1.3rem !important;
     }
-    .video iframe {
-        width: 100%;
-        height: 378px;
-    }
     section,
     header {
         padding: 50px 5%;
@@ -149,12 +154,6 @@ footer a, footer img {
     }
     .noticeTop {
         padding-bottom: 3px !important;
-    }
-}
-@media (min-width: 320px) and (max-width: 425px){
-    .video iframe {
-        width: 100%;
-        height: 163px;
     }
 }
 #mailIcons img {

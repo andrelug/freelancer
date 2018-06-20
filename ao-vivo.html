@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Jornada do Freelancer - Série Gratuita de Webinários</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/luc1kog.css">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+<body id="live">
+<div class="columns is-centered is-gapless noticeTop borderBottom">
+    <div class="column is-half has-text-centered">
+        <div class="content">
+            <h2>Treinamento Gratuito Ao Vivo</h2>
+        </div>
+    </div>
+</div>
+<header>
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column content has-text-centered">
+                <h3 class="is-marginless">Título do Treinamento</h3>
+            </div>
+        </div>
+
+        <div class="columns is-centered">
+            <div class="column content has-text-centered video">
+                <div class="videoWrapper">
+                    <iframe src="https://www.youtube.com/embed/8GioP4fEXwg" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="columns is-centered">
+            <div class="column content has-text-left">
+                <h3 class="has-text-weight-light">Comentários</h3>
+            </div>
+        </div>
+        <div class="columns is-centered">
+            <div class="column content">
+                <div id="disqus_thread"></div>
+                <script>
+
+                  /**
+                   *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES
+                   *  FROM YOUR PLATFORM OR CMS.
+                   *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                  var disqus_config = function () {
+                    this.page.url = 'https://freelancer.andrelug.com/ao-vivo.html';  // Replace PAGE_URL with your page's canonical URL variable
+                    // this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                  };
+                  var disqus_developer = 1;
+                  (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://teste-8wzivodszs.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                  })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                    powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    </div>
+</header>
+<footer>
+    <div class="container">
+        <div class="column is-centered">
+            <div class="columns has-text-centered">
+                <a href="https://www.igluonline.com">
+                    <figure class="image">
+                        <img src="images/andrelug_white_md.png" alt="Andre Lug">
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

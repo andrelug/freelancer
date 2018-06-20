@@ -42,6 +42,9 @@ button {
     margin-bottom: 0px !important;
     padding-top:14px !important;
 }
+.noticeTop.borderBottom{
+    border-bottom: 1px solid #707070;
+}
 .button .icon:first-child:last-child {
     margin-left: calc(-.375em - -10px);
 }
@@ -68,6 +71,31 @@ button {
 .textBlue {
     color: #273c75 !important;
 }
+#live h3{
+    font-size: 1.8rem;
+}
+
+#live header{
+    padding: 50px 5%;
+}
+#live .container{
+    max-width: 1000px;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 section,
 header {
     padding: 100px 5%;

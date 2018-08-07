@@ -61,7 +61,7 @@ button {
 #home .webinario, #confirmado .webinario {
     color: #F5B039 !important;
     font-weight: bold;
-    font-size: 2rem !important;
+    font-size: 1.7rem !important;
 }
 #confirmar .webinario {
     color: #222 !important;
@@ -98,7 +98,7 @@ button {
 
 section,
 header {
-    padding: 100px 5%;
+    padding: 70px 5%;
 }
 section#andrelug {
     border-bottom: 10px solid #F5B039;

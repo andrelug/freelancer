@@ -93,7 +93,7 @@ fbq('track', 'Lead');
         </div>
         <div class="columns">
             <div class="column content has-text-centered" style="padding: 40px 0;">
-                <a href="https://www.autonomiaprofissional.com/" class="a is-link is-large" ga-on="click" ga-event-category="Button" ga-event-action="Click" ga-event-label="Inscrever Newsletter Sidebar">
+                <a href="https://www.autonomiaprofissional.com/" id="botaoCurso" style="display:none;" class="a is-link is-large" ga-on="click" ga-event-category="Button" ga-event-action="Click" ga-event-label="Inscrever Newsletter Sidebar">
                     SE INSCREVA NO CURSO
 
                 </a>
@@ -152,6 +152,13 @@ fbq('track', 'Lead');
     })(window,document,'script','https://mkt.igluonline.com/mtc.js','mt');
 
     mt('send', 'pageview');
+</script>
+<script>
+var botao = document.getElementById('botaoCurso');
+
+setTimeout(() => {
+    botao.style.display = "table";
+}, 3600000);
 </script>
 </body>
 </html>
